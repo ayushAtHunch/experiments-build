@@ -1,0 +1,90 @@
+[
+  {
+    "id": "60a430e6-dbfa-44f5-b9b4-219f9bf6439c",
+    "name": "test cta",
+    "slug": "test-cta",
+    "experimentBase": "ui-section",
+    "baseEntityId": "ui-section::HUNCH_MOBILE::paywall::paywall-cta",
+    "isActive": true,
+    "variants": [
+      {
+        "value": "Continue",
+        "name": "test1",
+        "slug": "test1",
+        "weight": 100
+      },
+      {
+        "value": "Get $ctaDurationText for $price",
+        "name": "test2",
+        "slug": "test2",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "id": "60a430e6-dbfa-44f5-b9b4-219f9bf6440c",
+    "name": "graph-test",
+    "slug": "graph-test",
+    "experimentBase": "ui-section",
+    "baseEntityId": "ui-section::HUNCH_MOBILE::paywall::info-section-2-creative",
+    "isActive": false,
+    "variants": [
+      {
+        "value": "true",
+        "name": "with-graph",
+        "slug": "with-graph",
+        "weight": 50
+      },
+      {
+        "value": "false",
+        "name": "no-graph",
+        "slug": "no-graph",
+        "weight": 50
+      }
+    ]
+  },
+  {
+    "id": "60a430e6-dbfa-44f5-b9b4-219f9bf6440d",
+    "name": "free-trial",
+    "slug": "free-trial",
+    "experimentBase": "ui-section",
+    "baseEntityId": "ui-section::HUNCH_MOBILE::paywall::free-trial",
+    "isActive": true,
+    "variants": [
+      {
+        "value": "true",
+        "name": "with-free-trial",
+        "slug": "with-free-trial",
+        "weight": 20
+      },
+      {
+        "value": "false",
+        "name": "no-free-trial",
+        "slug": "no-free-trial",
+        "weight": 80
+      }
+    ]
+  },
+  {
+    "id": "60a430e6-dbfa-44f5-b9b4-219f9bf6439d",
+    "name": "price-experiment",
+    "slug": "price-experiment",
+    "experimentBase": "ui-section",
+    "baseEntityId": "ui-section::HUNCH_MOBILE::paywall::price-experiment",
+    "isActive": true,
+    "variants": [
+      {
+        "value": "normal-price",
+        "name": "normal-price",
+        "slug": "normal-price",
+        "weight": 0
+      },
+      {
+        "value": "high-price",
+        "name": "high-price",
+        "slug": "high-price",
+        "weight": 100
+      }
+    ]
+  }
+]
